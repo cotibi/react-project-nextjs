@@ -1,0 +1,18 @@
+Image Link (chat, IM, email):
+https://svgshare.com/s/hyb
+
+
+Direct Link (chat, IM, email):
+https://svgshare.com/i/hyb.svg
+
+
+HTML (website, blog):
+<a href='https://svgshare.com/s/hyb' ><img src='https://svgshare.com/i/hyb.svg' title='' /></a>
+
+
+HTML iframe (website, blog):
+<iframe src='https://svgshare.com/f/hyb' width=100% height=100% ></iframe>
+
+
+Hash resolver":
+https://svgshare.com/getbyhash/sha1-Vl4/4nydrQ7cBhV5u5ZC3u0l5pU=

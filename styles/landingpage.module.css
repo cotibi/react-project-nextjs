@@ -1,0 +1,159 @@
+  .signinbutton {
+    border: 1px solid black;
+    margin: 30px 45px;
+    float: right;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+  }
+
+  .signinbutton:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .panelcontainer {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .leftpanel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 60%;
+    min-width: 300px;
+    max-width: 600px;
+    max-height: 60%;
+    justify-content: right;
+    border-right: 2px solid black;
+  }
+
+  .rightpanel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+    min-height: 50vh;
+    min-width: 400px;
+    max-width: 600px;
+    max-height: 50vh;
+  }
+
+  .rightpanel p {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .author {
+    text-align: right;
+  }
+
+  .logo {
+    display: block;
+    margin: auto;
+    min-height: 300px;
+    min-width: 400px;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .htwo {
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px 40px 0px 40px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin-top: 100px;
+    margin-right: 45px;
+    margin-bottom: 50px;
+    justify-content: right;
+  }
+
+  .icon {
+    margin-right: 30px;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .signinbutton {
+      padding: 5px 15px;
+      font-size: 14px;
+    }
+
+    .panelcontainer {
+      margin-left: 7%;
+      margin-right: 15%;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
+
+    .leftpanel {
+      border-right: none;
+      border-bottom: 2px solid black;
+    }
+
+    .logo {
+      min-height: 200px;
+      max-height: 300px;
+      min-width: 200px;
+      max-width: 300px;
+    }
+
+    .htwo {
+      margin: 10px 0px 40px 0px;
+    }
+
+    .footer {
+      justify-content: center;
+      margin-top: 80px;
+      margin-right: 0px;
+    }
+
+    .rightpanel {
+      margin-top: 80px;
+    }
+
+    .rightpanel p {
+      margin-right: 10px;
+      font-size: 13px;
+    }
+
+    .icon {
+      margin-right: 30px;
+      height: 25px;
+      width: 25px;
+      cursor: pointer;
+      filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    }
+  }

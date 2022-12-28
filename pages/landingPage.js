@@ -1,4 +1,6 @@
-import styles from '../styles/landingpage.module.css'
+import styles from '../styles/landingpage.module.css';
+// import SignInBtt from './signinbutton.js';
+import Link from "next/link";
 
 const LandingPage = () => (
     <div className={styles.container}>

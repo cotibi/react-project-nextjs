@@ -1,11 +1,10 @@
 import styles from '../styles/landingpage.module.css';
-// import SignInBtt from './signinbutton.js';
-import Link from "next/link";
+import Link from 'next/link';
 
 const LandingPage = () => (
     <div className={styles.container}>
   <div className={styles.header}>
-    <button className={styles.signinbutton} type="button" name="Sign in">Sign in</button>
+  <Link href="/signinform"><button className={styles.signinbutton} type="button" name="Sign in">Sign in</button></Link>
   </div>
   <div className={styles.panelcontainer}>
     <div className={styles.leftpanel}>
